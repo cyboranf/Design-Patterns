@@ -17,7 +17,7 @@ public class AppConfig {
 
     public static AppConfig getINSTANCE() {
         if (INSTANCE == null) {
-            INSTANCE = new AppConfig("127.0.0.1", 0000, "/admin");
+            INSTANCE = new AppConfig("127.0.0.1", 0100, "/admin");
         }
         return INSTANCE;
     }
